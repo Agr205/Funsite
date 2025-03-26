@@ -1,0 +1,78 @@
+
+
+
+header {
+    height: 500px;
+    background-image: url("./../images/background.png");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #ffbf69;
+}
+
+nav {
+    height: 10%;
+    display: flex;
+    background: transparent;
+}
+li {
+    list-style: none;
+}
+
+#Logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#servicio{ 
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#POP {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#quienes-somos{
+    text-align: center;
+    height: 300px;
+}
+
+#otras-opciones{
+    height: 500px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+}
+
+#amongus{
+    height: 80%;
+    width: 20%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#circle{
+    height: 80%;
+    width: 20%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+#square{
+    height: 1000%;
+    width:20%;
+    display: flex;
+    flex-direction: column-reverse;
+}
