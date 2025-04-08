@@ -49,15 +49,16 @@ html, body {
 .navbar-right {
     position: relative;
     top: -3rem;
+    right: 3rem;
 }
 img.paleta-img {
     max-height: 100%;
     height: 34rem;
     display: flex;
     position: relative;
-    top: 5rem;
+    top: 2rem;
     right: -20rem;
-    width: 69rem;
+    width: 64rem;
 }
 
 .nosotros-clase{
@@ -76,11 +77,41 @@ img.paleta-img {
     }
     .escoge-tu-popit {
         background-color: #cbf3f0;
+        height: 32rem;
+        
     }
-    
+    .Seleccion-de-popit {
+        position: relative;
+        top: 4rem;
+    }
+
     .titulo-escoge {
         display: flex;
         justify-content: center;
     }
     
-    
+    .imagenes-popit {
+        display: flex;
+        justify-content: space-around;
+    }
+    /* img seccion escogencia */
+
+    .cuadrado {
+        height: 15rem;
+    }
+    .amongus {
+        height: 15rem;
+    }
+    .circulo {
+        height: 15rem;
+    }
+
+    .nombres-popit {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .botones-pedir {
+        display: flex;
+        justify-content: space-around;
+    }
