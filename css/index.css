@@ -1,78 +1,86 @@
-
-
-
-header {
-    height: 500px;
-    background-image: url("./../images/background.png");
-    background-size: contain;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-color: #ffbf69;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-nav {
-    height: 10%;
+:root {
+    --MellowAprical:(#FFBF69);
+}
+
+.header {
+    background-color:#FFBF69;
+    height: 39rem;
+}
+
+.navbar{
     display: flex;
-    background: transparent;
-}
-li {
-    list-style: none;
-}
+        justify-content: space-between;
+        align-items: center;
+        max-height: 8rem;
+        height: 8rem;
+        position: relative;
+        top:-32rem;
+    }
 
-#Logo{
-    width: 50%;
+.logo-class {
+        text-decoration: none;
+        color: white;
+        font-size: 10rem;
+        font-weight: 700;
+        
+    }
+
+    .menu-navegacion {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4rem;
+    }
+
+.navbar__left{
+    color: white;
+    position: relative;
+    top: 12rem;
+    right: -5rem;
+}
+.navbar-right {
+    position: relative;
+    top: -3rem;
+}
+img.paleta-img {
+    max-height: 100%;
+    height: 34rem;
     display: flex;
-    align-items: center;
-    padding-left: 20px;
+    position: relative;
+    top: 5rem;
+    right: -20rem;
+    width: 69rem;
 }
 
-#servicio{ 
-    width: 50%;
+.nosotros-clase{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+        justify-content: center;
+        height: 17rem;
+        align-items: center;
+        flex-direction: column;
+    }
 
-#POP {
-    height: 80%;
-    width: 60%;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
-#quienes-somos{
-    text-align: center;
-    height: 300px;
-}
-
-#otras-opciones{
-    height: 500px;
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-
-}
-
-#amongus{
-    height: 80%;
-    width: 20%;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-#circle{
-    height: 80%;
-    width: 20%;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-
-#square{
-    height: 1000%;
-    width:20%;
-    display: flex;
-    flex-direction: column-reverse;
-}
+    .nosotros-texto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .escoge-tu-popit {
+        background-color: #cbf3f0;
+    }
+    
+    .titulo-escoge {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
