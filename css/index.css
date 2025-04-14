@@ -115,3 +115,32 @@ img.paleta-img {
         display: flex;
         justify-content: space-around;
     }
+    
+    /* seccion a cerca de nosotros*/
+    section.acerca-de {
+        height: 48rem;
+    }
+    .acerca-de-container-texto {
+        position: relative;
+        bottom: -13rem;
+        text-align: left;
+        max-width: 752px;
+    }
+    .foto-mano {
+        height: 24rem;
+        position: relative;
+        right: -57rem;
+        bottom: 31rem;
+    }
+    .footer {
+        background-color: rgb(43, 39, 39);
+        color: white;
+        height: 5rem;
+    }
+    
+    .lista-footer {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
